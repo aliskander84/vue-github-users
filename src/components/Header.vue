@@ -13,9 +13,9 @@
     <el-menu-item index="2">
       <router-link to="/">Users list</router-link>
     </el-menu-item>
-    <el-menu-item index="3">
-      <router-link to="/user">User</router-link>
-    </el-menu-item>
+<!--    <el-menu-item index="3">-->
+<!--      <router-link to="/user">User</router-link>-->
+<!--    </el-menu-item>-->
   </el-menu>
 </template>
 
@@ -32,6 +32,6 @@
 
 <style>
   .header {
-    /*background: aqua;*/
+
   }
 </style>

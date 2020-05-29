@@ -17,9 +17,10 @@ const routes = [
     component: UsersListPage
   },
   {
-    path: '/user',
+    path: '/user/:id',
     name: 'UserPage',
-    component: () => import('../views/UserPage.vue')
+    component: () => import('../views/UserPage.vue'),
+    props: true
   }
 ]
 

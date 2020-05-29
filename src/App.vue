@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header/>
+    <Header class="header"/>
     <router-view/>
   </div>
 </template>
@@ -24,5 +24,11 @@
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    display: block;
   }
 </style>
