@@ -27,8 +27,8 @@
   }
 
   .header {
-    position: fixed;
-    top: 0;
-    display: block;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*display: block;*/
   }
 </style>
