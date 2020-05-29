@@ -1,11 +1,23 @@
 <template>
   <div class="login-page">
-    login
+    <LoginForm/>
   </div>
 </template>
 
 <script>
+  import LoginForm from '../components/LoginForm'
+
   export default {
-    name: 'LoginPage'
+    name: 'LoginPage',
+    components: {LoginForm}
   }
 </script>
+
+<style scoped>
+  .login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+</style>
